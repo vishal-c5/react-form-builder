@@ -6,7 +6,8 @@ module.exports = {
   devtool: 'source-map',
   output: {
     path: path.resolve('./public'),
-    filename: 'app.js'
+    filename: 'app.js',
+    hashFunction: 'sha512',
   },
   resolve: {
     extensions: ['.js', '.jsx', '.scss', '.css', '.json'],
